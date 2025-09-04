@@ -1,0 +1,112 @@
+{
+  "short_name": "Kaleidoscope",
+  "name": "Kaleidoscope - Културен Магазин за България",
+  "description": "Открийте скритите съкровища на България. Регионални дестинации, културни статии и традиции.",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#1a1a1a",
+  "background_color": "#ffffff",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "bg",
+  "categories": ["travel", "culture", "lifestyle", "education"],
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/maskable-icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-wide.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/screenshot-narrow.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Пътешествия",
+      "short_name": "Пътешествия",
+      "description": "Открийте регионални дестинации",
+      "url": "/travel-section-regional-discovery",
+      "icons": [
+        {
+          "src": "/icons/travel-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Култура",
+      "short_name": "Култура",
+      "description": "Културни статии и традиции",
+      "url": "/culture-section-editorial-authority",
+      "icons": [
+        {
+          "src": "/icons/culture-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Търсене",
+      "short_name": "Търсене",
+      "description": "Търсете съдържание",
+      "url": "/search-hub-content-discovery-engine",
+      "icons": [
+        {
+          "src": "/icons/search-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ]
+}

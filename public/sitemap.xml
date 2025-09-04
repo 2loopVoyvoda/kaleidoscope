@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+
+  <!-- Homepage -->
+  <url>
+    <loc>/</loc>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="bg" href="/"/>
+    <mobile:mobile/>
+  </url>
+
+  <!-- Travel Section -->
+  <url>
+    <loc>/travel-section-regional-discovery</loc>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="bg" href="/travel-section-regional-discovery"/>
+    <mobile:mobile/>
+    <image:image>
+      <image:loc>/images/travel-section-og.jpg</image:loc>
+      <image:title>Регионални Дестинации България</image:title>
+      <image:caption>Открийте скритите съкровища на България по региони</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Culture Section -->
+  <url>
+    <loc>/culture-section-editorial-authority</loc>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="bg" href="/culture-section-editorial-authority"/>
+    <mobile:mobile/>
+    <image:image>
+      <image:loc>/images/culture-section-og.jpg</image:loc>
+      <image:title>Култура и Традиции България</image:title>
+      <image:caption>Културни статии и традиции на България</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Search Hub -->
+  <url>
+    <loc>/search-hub-content-discovery-engine</loc>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="bg" href="/search-hub-content-discovery-engine"/>
+    <mobile:mobile/>
+  </url>
+
+  <!-- Interview Section -->
+  <url>
+    <loc>/interview-section-personality-showcase</loc>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="bg" href="/interview-section-personality-showcase"/>
+    <mobile:mobile/>
+  </url>
+
+  <!-- Homepage Cultural Magazine Hub -->
+  <url>
+    <loc>/homepage-cultural-magazine-hub</loc>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="bg" href="/homepage-cultural-magazine-hub"/>
+    <mobile:mobile/>
+  </url>
+
+  <!-- Article Details (Dynamic) -->
+  <url>
+    <loc>/article-details</loc>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="bg" href="/article-details"/>
+    <mobile:mobile/>
+  </url>
+
+  <!-- Static destinations - these would be dynamically generated in production -->
+  <url>
+    <loc>/destination/koprivshtitsa</loc>
+    <lastmod>2025-02-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="bg" href="/destination/koprivshtitsa"/>
+    <mobile:mobile/>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1578662996442-48f60103fc96</image:loc>
+      <image:title>Копривщица - Архитектурен резерват</image:title>
+      <image:caption>Възрожденски къщи и богата история от Április въстание</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>/destination/strandzha</loc>
+    <lastmod>2025-02-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="bg" href="/destination/strandzha"/>
+    <mobile:mobile/>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1441974231531-c6227db76b6e</image:loc>
+      <image:title>Странджа - Най-старата планина в България</image:title>
+      <image:caption>Уникална флора и фауна, древни традиции</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>/destination/melnik</loc>
+    <lastmod>2025-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="bg" href="/destination/melnik"/>
+    <mobile:mobile/>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1506905925346-21bda4d32df4</image:loc>
+      <image:title>Мелник - Най-малкия град в България</image:title>
+      <image:caption>Винопроизводство и пясъчни пирамиди</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>/destination/belogradchik</loc>
+    <lastmod>2025-02-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="bg" href="/destination/belogradchik"/>
+    <mobile:mobile/>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1469474968028-56623f02e42e</image:loc>
+      <image:title>Белоградчишки скали</image:title>
+      <image:caption>Впечатляващи скални образувания и средновековна крепост</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>/destination/sozopol</loc>
+    <lastmod>2025-02-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="bg" href="/destination/sozopol"/>
+    <mobile:mobile/>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1578662996442-48f60103fc96</image:loc>
+      <image:title>Созопол - Древен черноморски град</image:title>
+      <image:caption>Автентична архитектура и кристално чисто море</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>/destination/bansko</loc>
+    <lastmod>2025-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="bg" href="/destination/bansko"/>
+    <mobile:mobile/>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1441974231531-c6227db76b6e</image:loc>
+      <image:title>Банско - Планински курорт</image:title>
+      <image:caption>Традиционна архитектура и зимни спортове</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Articles -->
+  <url>
+    <loc>/article/weekend-koprivshtitsa</loc>
+    <lastmod>2025-02-28</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="bg" href="/article/weekend-koprivshtitsa"/>
+    <mobile:mobile/>
+    <news:news>
+      <news:publication>
+        <news:name>Kaleidoscope Magazine</news:name>
+        <news:language>bg</news:language>
+      </news:publication>
+      <news:publication_date>2025-02-28</news:publication_date>
+      <news:title>Уикенд в Копривщица: Пътешествие през времето</news:title>
+    </news:news>
+  </url>
+
+  <url>
+    <loc>/article/strandzha-treasures</loc>
+    <lastmod>2025-02-25</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="bg" href="/article/strandzha-treasures"/>
+    <mobile:mobile/>
+    <news:news>
+      <news:publication>
+        <news:name>Kaleidoscope Magazine</news:name>
+        <news:language>bg</news:language>
+      </news:publication>
+      <news:publication_date>2025-02-25</news:publication_date>
+      <news:title>Скритите съкровища на Странджа</news:title>
+    </news:news>
+  </url>
+
+  <url>
+    <loc>/article/melnik-wine-routes</loc>
+    <lastmod>2025-02-22</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="bg" href="/article/melnik-wine-routes"/>
+    <mobile:mobile/>
+    <news:news>
+      <news:publication>
+        <news:name>Kaleidoscope Magazine</news:name>
+        <news:language>bg</news:language>
+      </news:publication>
+      <news:publication_date>2025-02-22</news:publication_date>
+      <news:title>Винените маршрути на Мелник</news:title>
+    </news:news>
+  </url>
+
+</urlset>

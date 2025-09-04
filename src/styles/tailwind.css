@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Core Colors */
+    --color-background: #FAFAFA; /* gray-50 */
+    --color-foreground: #000000; /* black */
+    --color-border: #E5E5E5; /* gray-300 */
+    --color-input: #FFFFFF; /* white */
+    --color-ring: #1A1A1A; /* gray-900 */
+    
+    /* Card Colors */
+    --color-card: #F5F5F5; /* gray-100 */
+    --color-card-foreground: #000000; /* black */
+    --color-popover: #FFFFFF; /* white */
+    --color-popover-foreground: #000000; /* black */
+    
+    /* Muted Colors */
+    --color-muted: #F5F5F5; /* gray-100 */
+    --color-muted-foreground: #666666; /* gray-500 */
+    
+    /* Primary Colors */
+    --color-primary: #000000; /* black */
+    --color-primary-foreground: #FFFFFF; /* white */
+    
+    /* Secondary Colors */
+    --color-secondary: #FFFFFF; /* white */
+    --color-secondary-foreground: #000000; /* black */
+    
+    /* Accent Colors */
+    --color-accent: #1A1A1A; /* gray-900 */
+    --color-accent-foreground: #FFFFFF; /* white */
+    
+    /* Destructive Colors */
+    --color-destructive: #8B0000; /* dark-red */
+    --color-destructive-foreground: #FFFFFF; /* white */
+    
+    /* Success Colors */
+    --color-success: #2D5A27; /* dark-green */
+    --color-success-foreground: #FFFFFF; /* white */
+    
+    /* Warning Colors */
+    --color-warning: #8B4513; /* saddle-brown */
+    --color-warning-foreground: #FFFFFF; /* white */
+    
+    /* Error Colors */
+    --color-error: #8B0000; /* dark-red */
+    --color-error-foreground: #FFFFFF; /* white */
+  }
+
+  * {
+    @apply border-border;
+  }
+  
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+@layer utilities {
+  .font-playfair {
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .font-inter {
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .font-jetbrains {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}

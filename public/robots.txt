@@ -1,0 +1,40 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# High crawl-delay for aggressive crawlers
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: MJ12bot
+Crawl-delay: 10
+
+User-agent: DotBot
+Crawl-delay: 10
+
+# Block specific bots if needed
+User-agent: CCBot
+Disallow: /
+
+# Disallow specific directories if they exist
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+Disallow: /*.json$
+Disallow: /*?*&*utm_*
+Disallow: /*?utm_*
+Disallow: /*?*&*fbclid*
+Disallow: /*?fbclid*
+
+# Allow specific files
+Allow: /manifest.json
+Allow: /sitemap.xml
+Allow: /*.css
+Allow: /*.js
+
+# Sitemap location
+Sitemap: /sitemap.xml
+Sitemap: /sitemap-index.xml
+
+# Cache directive for robots.txt
+Cache-Control: public, max-age=86400
