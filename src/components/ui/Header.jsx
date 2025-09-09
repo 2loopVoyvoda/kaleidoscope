@@ -8,11 +8,11 @@ const Header = () => {
   const location = useLocation();
 
   const navigationItems = [
-    { name: 'Начало', path: '/homepage-cultural-magazine-hub' },
-    { name: 'Пътувания', path: '/travel-section-regional-discovery' },
-    { name: 'Култура', path: '/culture-section-editorial-authority' },
-    { name: 'Интервюта', path: '/interview-section-personality-showcase' },
-    { name: 'Търсене', path: '/search-hub-content-discovery-engine' }
+    { name: 'Начало', path: '/' },
+    { name: 'Пътувания', path: '/patuvania' },
+    { name: 'Култура', path: '/kultura' },
+    { name: 'Интервюта', path: '/intervyuta' },
+    { name: 'Търсене', path: '/tarsene' }
   ];
 
   const isActivePath = (path) => location?.pathname === path;
@@ -27,7 +27,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-16 px-6 lg:px-8">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <Link to="/homepage-cultural-magazine-hub" className="flex items-center">
+            <Link to="/" className="flex items-center">
               <div className="font-playfair text-2xl font-bold text-foreground tracking-tight">
                 Калейдоскоп
               </div>

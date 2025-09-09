@@ -18,12 +18,12 @@ const HeroSection = () => {
         </div>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-          <Link to="/search-hub-content-discovery-engine">
+          <Link to="/tarsene">
             <Button variant="default" size="lg" className="font-inter font-medium">
               Започни изследването
             </Button>
           </Link>
-          <Link to="/culture-section-editorial-authority">
+          <Link to="/kultura">
             <Button variant="outline" size="lg" className="font-inter font-medium">
               Научи повече
             </Button>

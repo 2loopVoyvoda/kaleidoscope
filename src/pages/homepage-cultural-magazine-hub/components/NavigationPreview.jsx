@@ -6,28 +6,28 @@ const NavigationPreview = () => {
   const categories = [
     {
       name: 'Пътувания',
-      path: '/travel-section-regional-discovery',
+      path: '/patuvania',
       description: 'Регионални открития и скрити съкровища',
       icon: 'MapPin',
       color: 'text-blue-600'
     },
     {
       name: 'Култура',
-      path: '/culture-section-editorial-authority',
+      path: '/kultura',
       description: 'Дълбочинен културен анализ и коментар',
       icon: 'Palette',
       color: 'text-purple-600'
     },
     {
       name: 'Интервюта',
-      path: '/interview-section-personality-showcase',
+      path: '/intervyuta',
       description: 'Разговори с интересни личности',
       icon: 'MessageCircle',
       color: 'text-green-600'
     },
     {
       name: 'Търсене',
-      path: '/search-hub-content-discovery-engine',
+      path: '/tarsene',
       description: 'Открий съдържание по твой вкус',
       icon: 'Search',
       color: 'text-orange-600'

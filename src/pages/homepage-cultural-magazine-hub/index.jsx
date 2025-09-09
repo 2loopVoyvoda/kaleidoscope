@@ -28,6 +28,7 @@ const HomepageCulturalMagazineHub = () => {
         <meta property="og:description" content="Открий необикновеното в познатото" />
         <meta property="og:type" content="website" />
         <link rel="canonical" href="/homepage-cultural-magazine-hub" />
+        <link rel="canonical" href="/" />
       </Helmet>
 
       <Header />

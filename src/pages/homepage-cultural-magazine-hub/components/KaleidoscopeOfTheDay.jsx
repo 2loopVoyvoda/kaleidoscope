@@ -12,7 +12,7 @@ const KaleidoscopeOfTheDay = () => {
       author: "Мария Петрова",
       readTime: "8 мин четене",
       category: "Пътувания",
-      categoryPath: "/travel-section-regional-discovery",
+      categoryPath: "/patuvania",
       image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop",
       featured: true,
       publishedAt: "2025-09-03"
@@ -24,7 +24,7 @@ const KaleidoscopeOfTheDay = () => {
       author: "Георги Стоянов",
       readTime: "12 мин четене",
       category: "Култура",
-      categoryPath: "/culture-section-editorial-authority",
+      categoryPath: "/kultura",
       image: "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=800&h=600&fit=crop",
       featured: false,
       publishedAt: "2025-09-02"
@@ -36,7 +36,7 @@ const KaleidoscopeOfTheDay = () => {
       author: "Анна Димитрова",
       readTime: "6 мин четене",
       category: "Любопитства",
-      categoryPath: "/homepage-cultural-magazine-hub",
+      categoryPath: "/",
       image: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=800&h=600&fit=crop",
       featured: false,
       publishedAt: "2025-09-01"

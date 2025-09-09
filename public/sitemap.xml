@@ -18,11 +18,11 @@
 
   <!-- Travel Section -->
   <url>
-    <loc>/travel-section-regional-discovery</loc>
+    <loc>/patuvania</loc>
     <lastmod>2025-03-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="bg" href="/travel-section-regional-discovery"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="/patuvania"/>
     <mobile:mobile/>
     <image:image>
       <image:loc>/images/travel-section-og.jpg</image:loc>
@@ -33,11 +33,11 @@
 
   <!-- Culture Section -->
   <url>
-    <loc>/culture-section-editorial-authority</loc>
+    <loc>/kultura</loc>
     <lastmod>2025-03-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="bg" href="/culture-section-editorial-authority"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="/kultura"/>
     <mobile:mobile/>
     <image:image>
       <image:loc>/images/culture-section-og.jpg</image:loc>
@@ -48,35 +48,25 @@
 
   <!-- Search Hub -->
   <url>
-    <loc>/search-hub-content-discovery-engine</loc>
+    <loc>/tarsene</loc>
     <lastmod>2025-03-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="bg" href="/search-hub-content-discovery-engine"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="/tarsene"/>
     <mobile:mobile/>
   </url>
 
   <!-- Interview Section -->
   <url>
-    <loc>/interview-section-personality-showcase</loc>
+    <loc>/intervyuta</loc>
     <lastmod>2025-03-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="bg" href="/interview-section-personality-showcase"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="/intervyuta"/>
     <mobile:mobile/>
   </url>
 
   <!-- Homepage Cultural Magazine Hub -->
-  <url>
-    <loc>/homepage-cultural-magazine-hub</loc>
-    <lastmod>2025-03-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="bg" href="/homepage-cultural-magazine-hub"/>
-    <mobile:mobile/>
-  </url>
-
-  <!-- Article Details (Dynamic) -->
   <url>
     <loc>/article-details</loc>
     <lastmod>2025-03-01</lastmod>

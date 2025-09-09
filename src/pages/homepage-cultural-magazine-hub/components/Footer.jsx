@@ -6,11 +6,11 @@ const Footer = () => {
 
   const footerLinks = {
     navigation: [
-      { name: 'Начало', path: '/homepage-cultural-magazine-hub' },
-      { name: 'Пътувания', path: '/travel-section-regional-discovery' },
-      { name: 'Култура', path: '/culture-section-editorial-authority' },
-      { name: 'Интервюта', path: '/interview-section-personality-showcase' },
-      { name: 'Търсене', path: '/search-hub-content-discovery-engine' }
+      { name: 'Начало', path: '/' },
+      { name: 'Пътувания', path: '/patuvania' },
+      { name: 'Култура', path: '/kultura' },
+      { name: 'Интервюта', path: '/intervyuta' },
+      { name: 'Търсене', path: '/tarsene' }
     ],
     legal: [
       { name: 'Политика за поверителност', path: '#' },

@@ -73,7 +73,7 @@
       "name": "Пътешествия",
       "short_name": "Пътешествия",
       "description": "Открийте регионални дестинации",
-      "url": "/travel-section-regional-discovery",
+      "url": "/patuvania",
       "icons": [
         {
           "src": "/icons/travel-192.png",
@@ -86,7 +86,7 @@
       "name": "Култура",
       "short_name": "Култура",
       "description": "Културни статии и традиции",
-      "url": "/culture-section-editorial-authority",
+      "url": "/kultura",
       "icons": [
         {
           "src": "/icons/culture-192.png",
@@ -99,7 +99,7 @@
       "name": "Търсене",
       "short_name": "Търсене",
       "description": "Търсете съдържание",
-      "url": "/search-hub-content-discovery-engine",
+      "url": "/tarsene",
       "icons": [
         {
           "src": "/icons/search-192.png",

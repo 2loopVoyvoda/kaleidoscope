@@ -12,7 +12,7 @@ const PersonalizedRecommendations = () => {
       author: "Проф. Иван Маразов",
       readTime: "15 мин четене",
       category: "Култура",
-      categoryPath: "/culture-section-editorial-authority",
+      categoryPath: "/kultura",
       image: "https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?w=400&h=300&fit=crop",
       tags: ["археология", "история", "траки"],
       engagement: 92
@@ -24,7 +24,7 @@ const PersonalizedRecommendations = () => {
       author: "Елена Георгиева",
       readTime: "10 мин четене",
       category: "Интервюта",
-      categoryPath: "/interview-section-personality-showcase",
+      categoryPath: "/intervyuta",
       image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop",
       tags: ["мода", "дизайн", "интервю"],
       engagement: 87
@@ -36,7 +36,7 @@ const PersonalizedRecommendations = () => {
       author: "Димитър Петков",
       readTime: "12 мин четене",
       category: "Пътувания",
-      categoryPath: "/travel-section-regional-discovery",
+      categoryPath: "/patuvania",
       image: "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=400&h=300&fit=crop",
       tags: ["вино", "туризм", "традиции"],
       engagement: 89
@@ -48,7 +48,7 @@ const PersonalizedRecommendations = () => {
       author: "Д-р Мария Стоянова",
       readTime: "8 мин четене",
       category: "Любопитства",
-      categoryPath: "/homepage-cultural-magazine-hub",
+      categoryPath: "/",
       image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop",
       tags: ["здраве", "технологии", "баланс"],
       engagement: 94
@@ -69,7 +69,7 @@ const PersonalizedRecommendations = () => {
           </div>
           
           <Link
-            to="/search-hub-content-discovery-engine"
+            to="/tarsene"
             className="hidden md:flex items-center text-accent hover:text-foreground transition-colors group"
           >
             <span className="font-inter text-sm font-medium">Виж всички</span>
@@ -139,7 +139,7 @@ const PersonalizedRecommendations = () => {
         </div>
         
         <div className="mt-12 text-center md:hidden">
-          <Link to="/search-hub-content-discovery-engine">
+          <Link to="/tarsene">
             <button className="inline-flex items-center text-accent hover:text-foreground transition-colors group">
               <span className="font-inter text-sm font-medium">Виж всички препоръки</span>
               <Icon name="ArrowRight" size={16} className="ml-2 group-hover:translate-x-1 transition-transform" />

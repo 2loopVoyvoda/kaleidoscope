@@ -101,7 +101,7 @@ const RegionalFocus = () => {
             {regions?.map((region) => (
               <Link
                 key={region?.id}
-                to="/travel-section-regional-discovery"
+                to="/patuvania"
                 className={`group block bg-background rounded-xl overflow-hidden border border-border hover:shadow-lg transition-all duration-300 ${
                   region?.featured ? 'ring-2 ring-accent/20' : ''
                 }`}
